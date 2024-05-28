@@ -1,8 +1,9 @@
 inherit_from: .rubocop_todo.yml
 
 require:
-  - rubocop-rspec
   - rubocop-rake
+  - rubocop-rspec
+  - rubocop-rspec_rails
 
 AllCops:
   Include:
