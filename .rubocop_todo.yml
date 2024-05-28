@@ -82,10 +82,3 @@ RSpec/SpecFilePathSuffix:
 Rake/Desc:
   Exclude:
     - 'Rakefile'
-
-# Offense count: 1
-# This cop supports safe autocorrection (--autocorrect).
-# Configuration parameters: AllowMultipleReturnValues.
-Style/RedundantReturn:
-  Exclude:
-    - 'lib/influxdb/rails/middleware/render_subscriber.rb'
